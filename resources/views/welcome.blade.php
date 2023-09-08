@@ -1,5 +1,5 @@
 @extends('master')
-@section('title', 'dashboard')
+@section('title', 'header')
 @section('content')
 <div class="content-wrapper">
             <!-- Content Header (Page header) -->
@@ -67,3 +67,4 @@
             </div>
             <!-- /.content -->
         </div>
+@endsection

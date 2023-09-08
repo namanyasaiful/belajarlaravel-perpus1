@@ -8,7 +8,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@yield('title')</title>
+    <title></title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -23,11 +23,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="wrapper">
 
         <!-- Navbar -->
-        @include('separate.header')
+        @include('header')
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-        @include('separate.sidebar')
+        @include('sidebar')
 
         <!-- Content Wrapper. Contains page content -->
 
@@ -35,7 +35,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- /.content-wrapper -->
 
         <!-- Main Footer -->
-        @include('separate.footer')
+        @include('footer')
     </div>
     <!-- ./wrapper -->
 
